@@ -13,16 +13,16 @@ print('''Escolha sua opção:
 
 jogador = int(input('Qual sua jogada: '))
 
-print('=-'*10)
-print(f'Você escolheu {itens[jogador]}')
-print(f'O computador escolheu {itens[computador]}')
-print('=-'*10)
-
 print('JO')
 sleep(1)
 print('kEN')
 sleep(1)
 print('PO')
+
+print('=-'*10)
+print(f'Você escolheu {itens[jogador]}')
+print(f'O computador escolheu {itens[computador]}')
+print('=-'*10)
 
 if computador == 0: #jogou pedra
     if jogador == 0:
